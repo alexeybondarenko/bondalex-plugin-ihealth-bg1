@@ -22,7 +22,7 @@ Plugin use official iHealth SDK for iOS.
 
 You can get iHealth Auth params [here](http://developer.ihealthlabs.com/index.htm)
 
-## TD;LR
+## TL;DR
 
 ```
 
