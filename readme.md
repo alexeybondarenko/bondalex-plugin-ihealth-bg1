@@ -72,6 +72,29 @@ window.addEventListener('ihealthstatus', function (resp) {
 
 ```
 
+## Example
+
+Events
+
+```
+{"status":"connect"}
+{"status":"disconnect"}
+
+{"status":"sendCodeBlock","data":{"status":true}}
+{"status":"stripIn","data":{"status":true}}
+{"status":"stripOut","data":{"status":true}}
+
+{"status":"error","data":{"status":100}}
+{"status":"verify","data":{"status":true}}
+{"status":"plugged","data":{"status":true}}
+{"status":"ready","data":{"status":true}}
+
+{"status":"idps","data":{"IDPSName":"eac5a0558e","IDPSdevice":"eac5a0558e","SerialNumber":"eac5a0558e","protocol":"com.jiuan.BGV10"}}
+
+{"status":"blood","data":{"status":true}}
+{"status":"result","data":{"result":50}}
+```
+
 ## TODO
 
 - [ ] Android
