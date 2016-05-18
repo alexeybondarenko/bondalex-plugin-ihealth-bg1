@@ -51,6 +51,11 @@
   <platform name="android">
     <source-file src="src/android/iHealthBG1.java" target-dir="src/com/bondalex/ihealthbg1" />
 
+    <source-file src="src/android/libs/iHealthLibrary_1.0.19.jar" target-dir="libs" />
+    <source-file src="src/android/libs/LPCBT.jar" target-dir="libs" />
+    <source-file src="src/android/libs/d2xx.jar" target-dir="libs" />
+    <source-file src="src/android/libs/samsung_ble_sdk_200.jar" target-dir="libs" />
+
     <config-file target="AndroidManifest.xml" parent="/manifest">
       <uses-permission android:name="android.permission.BLUETOOTH" />
       <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
